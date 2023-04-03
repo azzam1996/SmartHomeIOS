@@ -2,7 +2,7 @@
 //  SmartHomeIOSApp.swift
 //  SmartHomeIOS
 //
-//  Created by George Makhoul on 4/3/23.
+//  Created by Azzam Habib on 4/3/23.
 //
 
 import SwiftUI

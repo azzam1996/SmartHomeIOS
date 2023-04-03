@@ -1,6 +1,6 @@
 //
 //  RoomScreen.swift
-//  CanvasTest
+//  SmartHomeIOS
 //
 //  Created by Azzam Habib on 3/30/23.
 //

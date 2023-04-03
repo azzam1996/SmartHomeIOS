@@ -1,8 +1,8 @@
 //
 //  ViewExtension.swift
-//  CanvasTest
+//  SmartHomeIOS
 //
-//  Created by George Makhoul on 3/29/23.
+//  Created by Azzam Habib on 3/29/23.
 //
 
 import SwiftUI

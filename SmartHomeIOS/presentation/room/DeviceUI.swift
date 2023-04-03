@@ -1,6 +1,6 @@
 //
 //  DeviceUI.swift
-//  CanvasTest
+//  SmartHomeIOS
 //
 //  Created by Azzam Habib on 3/31/23.
 //
