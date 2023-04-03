@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3566772929DAE97200CB8115 /* SmartHomeIOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3566772829DAE97200CB8115 /* SmartHomeIOSApp.swift */; };
+		3566772D29DAE97800CB8115 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3566772C29DAE97800CB8115 /* Assets.xcassets */; };
+		3566773029DAE97800CB8115 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3566772F29DAE97800CB8115 /* Preview Assets.xcassets */; };
+		3595279329DAEBD900E9413C /* SwitchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595279029DAEBD900E9413C /* SwitchModel.swift */; };
+		3595279429DAEBD900E9413C /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595279129DAEBD900E9413C /* Device.swift */; };
+		3595279529DAEBD900E9413C /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595279229DAEBD900E9413C /* Room.swift */; };
+		3595279829DAEBEA00E9413C /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595279729DAEBEA00E9413C /* ViewExtension.swift */; };
+		3595279F29DAEC6200E9413C /* TemperatureProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595279D29DAEC6100E9413C /* TemperatureProgressBar.swift */; };
+		359527A029DAEC6200E9413C /* SegmentedPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3595279E29DAEC6200E9413C /* SegmentedPicker.swift */; };
+		359527A429DAEC7F00E9413C /* RoomUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359527A229DAEC7F00E9413C /* RoomUI.swift */; };
+		359527A529DAEC7F00E9413C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359527A329DAEC7F00E9413C /* HomeScreen.swift */; };
+		359527A929DAEC9500E9413C /* RoomScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359527A729DAEC9500E9413C /* RoomScreen.swift */; };
+		359527AA29DAEC9500E9413C /* DeviceUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359527A829DAEC9500E9413C /* DeviceUI.swift */; };
+		359527B229DAED2B00E9413C /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359527AE29DAED2A00E9413C /* Nunito-Regular.ttf */; };
+		359527B329DAED2B00E9413C /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359527AF29DAED2A00E9413C /* Nunito-Light.ttf */; };
+		359527B429DAED2B00E9413C /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359527B029DAED2A00E9413C /* Nunito-SemiBold.ttf */; };
+		359527B529DAED2B00E9413C /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 359527B129DAED2B00E9413C /* Nunito-Bold.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3566772529DAE97200CB8115 /* SmartHomeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHomeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3566772829DAE97200CB8115 /* SmartHomeIOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHomeIOSApp.swift; sourceTree = "<group>"; };
+		3566772C29DAE97800CB8115 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3566772F29DAE97800CB8115 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3566773129DAE97800CB8115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3595279029DAEBD900E9413C /* SwitchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchModel.swift; sourceTree = "<group>"; };
+		3595279129DAEBD900E9413C /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		3595279229DAEBD900E9413C /* Room.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		3595279729DAEBEA00E9413C /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		3595279D29DAEC6100E9413C /* TemperatureProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureProgressBar.swift; sourceTree = "<group>"; };
+		3595279E29DAEC6200E9413C /* SegmentedPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentedPicker.swift; sourceTree = "<group>"; };
+		359527A229DAEC7F00E9413C /* RoomUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomUI.swift; sourceTree = "<group>"; };
+		359527A329DAEC7F00E9413C /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		359527A729DAEC9500E9413C /* RoomScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomScreen.swift; sourceTree = "<group>"; };
+		359527A829DAEC9500E9413C /* DeviceUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceUI.swift; sourceTree = "<group>"; };
+		359527AE29DAED2A00E9413C /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Nunito-Regular.ttf"; path = "SmartHomeIOS/Nunito-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		359527AF29DAED2A00E9413C /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		359527B029DAED2A00E9413C /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		359527B129DAED2B00E9413C /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3566772229DAE97200CB8115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3566771C29DAE97200CB8115 = {
+			isa = PBXGroup;
+			children = (
+				3566772729DAE97200CB8115 /* SmartHomeIOS */,
+				3566772629DAE97200CB8115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3566772629DAE97200CB8115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3566772529DAE97200CB8115 /* SmartHomeIOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3566772729DAE97200CB8115 /* SmartHomeIOS */ = {
+			isa = PBXGroup;
+			children = (
+				359527AD29DAECE100E9413C /* Fonts */,
+				3595278629DAEB1E00E9413C /* presentation */,
+				3595278529DAEB1700E9413C /* domain */,
+				3566772829DAE97200CB8115 /* SmartHomeIOSApp.swift */,
+				3566772C29DAE97800CB8115 /* Assets.xcassets */,
+				3566773129DAE97800CB8115 /* Info.plist */,
+				3566772E29DAE97800CB8115 /* Preview Content */,
+			);
+			path = SmartHomeIOS;
+			sourceTree = "<group>";
+		};
+		3566772E29DAE97800CB8115 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3566772F29DAE97800CB8115 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3595278529DAEB1700E9413C /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				3595278F29DAEBCA00E9413C /* model */,
+				3595278E29DAEBB400E9413C /* util */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		3595278629DAEB1E00E9413C /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				3595279C29DAEC3000E9413C /* customViews */,
+				3595279B29DAEC2900E9413C /* room */,
+				3595279A29DAEC1900E9413C /* homepage */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		3595278E29DAEBB400E9413C /* util */ = {
+			isa = PBXGroup;
+			children = (
+				3595279729DAEBEA00E9413C /* ViewExtension.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		3595278F29DAEBCA00E9413C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3595279129DAEBD900E9413C /* Device.swift */,
+				3595279229DAEBD900E9413C /* Room.swift */,
+				3595279029DAEBD900E9413C /* SwitchModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		3595279A29DAEC1900E9413C /* homepage */ = {
+			isa = PBXGroup;
+			children = (
+				359527A329DAEC7F00E9413C /* HomeScreen.swift */,
+				359527A229DAEC7F00E9413C /* RoomUI.swift */,
+			);
+			path = homepage;
+			sourceTree = "<group>";
+		};
+		3595279B29DAEC2900E9413C /* room */ = {
+			isa = PBXGroup;
+			children = (
+				359527A829DAEC9500E9413C /* DeviceUI.swift */,
+				359527A729DAEC9500E9413C /* RoomScreen.swift */,
+			);
+			path = room;
+			sourceTree = "<group>";
+		};
+		3595279C29DAEC3000E9413C /* customViews */ = {
+			isa = PBXGroup;
+			children = (
+				3595279E29DAEC6200E9413C /* SegmentedPicker.swift */,
+				3595279D29DAEC6100E9413C /* TemperatureProgressBar.swift */,
+			);
+			path = customViews;
+			sourceTree = "<group>";
+		};
+		359527AD29DAECE100E9413C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				359527B129DAED2B00E9413C /* Nunito-Bold.ttf */,
+				359527AF29DAED2A00E9413C /* Nunito-Light.ttf */,
+				359527AE29DAED2A00E9413C /* Nunito-Regular.ttf */,
+				359527B029DAED2A00E9413C /* Nunito-SemiBold.ttf */,
+			);
+			name = Fonts;
+			path = "New Group1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3566772429DAE97200CB8115 /* SmartHomeIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3566773429DAE97800CB8115 /* Build configuration list for PBXNativeTarget "SmartHomeIOS" */;
+			buildPhases = (
+				3566772129DAE97200CB8115 /* Sources */,
+				3566772229DAE97200CB8115 /* Frameworks */,
+				3566772329DAE97200CB8115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartHomeIOS;
+			productName = SmartHomeIOS;
+			productReference = 3566772529DAE97200CB8115 /* SmartHomeIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3566771D29DAE97200CB8115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					3566772429DAE97200CB8115 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 3566772029DAE97200CB8115 /* Build configuration list for PBXProject "SmartHomeIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3566771C29DAE97200CB8115;
+			productRefGroup = 3566772629DAE97200CB8115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3566772429DAE97200CB8115 /* SmartHomeIOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3566772329DAE97200CB8115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				359527B229DAED2B00E9413C /* Nunito-Regular.ttf in Resources */,
+				3566773029DAE97800CB8115 /* Preview Assets.xcassets in Resources */,
+				359527B329DAED2B00E9413C /* Nunito-Light.ttf in Resources */,
+				3566772D29DAE97800CB8115 /* Assets.xcassets in Resources */,
+				359527B529DAED2B00E9413C /* Nunito-Bold.ttf in Resources */,
+				359527B429DAED2B00E9413C /* Nunito-SemiBold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3566772129DAE97200CB8115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3595279429DAEBD900E9413C /* Device.swift in Sources */,
+				3566772929DAE97200CB8115 /* SmartHomeIOSApp.swift in Sources */,
+				359527A929DAEC9500E9413C /* RoomScreen.swift in Sources */,
+				359527A429DAEC7F00E9413C /* RoomUI.swift in Sources */,
+				359527A029DAEC6200E9413C /* SegmentedPicker.swift in Sources */,
+				3595279529DAEBD900E9413C /* Room.swift in Sources */,
+				359527A529DAEC7F00E9413C /* HomeScreen.swift in Sources */,
+				359527AA29DAEC9500E9413C /* DeviceUI.swift in Sources */,
+				3595279329DAEBD900E9413C /* SwitchModel.swift in Sources */,
+				3595279829DAEBEA00E9413C /* ViewExtension.swift in Sources */,
+				3595279F29DAEC6200E9413C /* TemperatureProgressBar.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3566773229DAE97800CB8115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3566773329DAE97800CB8115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3566773529DAE97800CB8115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartHomeIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmartHomeIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azzam.SmartHomeIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3566773629DAE97800CB8115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartHomeIOS/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmartHomeIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.azzam.SmartHomeIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3566772029DAE97200CB8115 /* Build configuration list for PBXProject "SmartHomeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3566773229DAE97800CB8115 /* Debug */,
+				3566773329DAE97800CB8115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3566773429DAE97800CB8115 /* Build configuration list for PBXNativeTarget "SmartHomeIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3566773529DAE97800CB8115 /* Debug */,
+				3566773629DAE97800CB8115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3566771D29DAE97200CB8115 /* Project object */;
+}
